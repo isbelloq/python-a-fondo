@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "python-a-fondo"
+version = "0.1.0"
+description = "Libro: Python a fondo | Autor: Óscar Ramirez"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "python_a_fondo"}]
+
+[tool.poetry.dependencies]
+python = "3.9.0"
+matplotlib = "^3.6.3"
+numpy = "^1.24.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.20.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
